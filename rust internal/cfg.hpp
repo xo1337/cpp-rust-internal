@@ -55,7 +55,6 @@ namespace base
 
 		inline bool health_bar = true;
 		inline bool visible_colors = false;
-		inline bool info_bar = false;
 
 		inline bool weapon_name = true;
 		inline float weapon_name_color[4] = { 1, 1, 0, 1 };

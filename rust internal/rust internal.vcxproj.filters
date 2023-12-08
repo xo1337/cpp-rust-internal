@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{d37d3a93-24f8-4ead-95de-a5594f7a0445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{71bd88f1-f875-401f-96bf-42ee167ecab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{1ce90aaf-c04b-47ee-a7ba-f55d6a38add8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\impl">
+      <UniqueIdentifier>{df826a87-6bd2-46b9-ba7f-323d0711b1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{efd8eb1f-01ab-46ad-a243-8beaaba39e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat">
+      <UniqueIdentifier>{1dcc64e7-ac2f-4439-9797-03b274169596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_stdlib.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="declarations.cpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features.cpp">
+      <Filter>Source Files\features\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d11.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="other.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="unity.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory.hpp">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption.hpp">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_stdlib.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_fonts.hpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.hpp">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.hpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="winapi.hpp">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="declarations.hpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.hpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="syscaller.hpp">
+      <Filter>Source Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.hpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features.hpp">
+      <Filter>Source Files\features\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11.hpp">
+      <Filter>Source Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.hpp">
+      <Filter>Source Files\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp.h">
+      <Filter>Source Files\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Source Files\modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="safe_call.asm">
+      <Filter>Source Files\memory</Filter>
+    </MASM>
+    <MASM Include="syscall.asm">
+      <Filter>Source Files\memory</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
