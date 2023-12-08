@@ -1,8 +1,9 @@
 # 💻 ***C++ Rust Internal***
 ***A internal software developed for the game Rust. Made for educational purposes.***
 
-[!image](github.com/xo1337/cpp-rust-internal/images/rust_internal_1.png)
-[!image](github.com/xo1337/cpp-rust-internal/images/rust_internal_2.png)
+**Showcase Video:**
+
+[![Showcase Video](https://img.youtube.com/vi/b5nBIwMBYVQ/0.jpg)](https://www.youtube.com/watch?v=b5nBIwMBYVQ)
 
 > [!NOTE]
 > An injector is not included, so you have to figure out how to get the DLL in the game. The injector I used is modified, and so you will see some winapi calls on purpose because the injector I used spoof called all the winapi functions so I didn't have to manually spoof call them one by one. Feel free to manually spoof call these winapi calls yourself if you want. 
@@ -15,6 +16,9 @@
 > 4. Open the `config.json` file generated from IL2CPP dumper
 > 5. Goto `modules/offsets.hpp` and update all of the offsets from what you get in `config.json`
 > 6. Thats it! 
+
+![alt text](https://github.com/xo1337/cpp-rust-internal/blob/main/images/rust_internal_1.png)
+![alt text](https://github.com/xo1337/cpp-rust-internal/blob/main/images/rust_internal_2.png)
 
 ## 🧰 Code Features:
 - No hooks
