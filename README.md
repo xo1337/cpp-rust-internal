@@ -1,8 +1,8 @@
 # 💻 ***C++ Rust Internal***
 ***A internal software developed for the game Rust. Made for educational purposes.***
 
-[!image(images/rust_internal_1.png)]
-[!image(images/rust_internal_2.png)]
+[!image](github.com/xo1337/cpp-rust-internal/images/rust_internal_1.png)
+[!image](github.com/xo1337/cpp-rust-internal/images/rust_internal_2.png)
 
 > [!NOTE]
 > An injector is not included, so you have to figure out how to get the DLL in the game. The injector I used is modified, and so you will see some winapi calls on purpose because the injector I used spoof called all the winapi functions so I didn't have to manually spoof call them one by one. Feel free to manually spoof call these winapi calls yourself if you want. 
